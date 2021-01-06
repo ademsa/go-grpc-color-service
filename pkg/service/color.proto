@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "github.com/ademsa/go-grpc-color-service/service";
+
+package service;
+
+message GetColorRequest {
+}
+
+message GetColorResponse {
+    string color = 1;
+}
+
+service ColorService {
+    rpc GetColor(GetColorRequest) returns (GetColorResponse) {}
+}
