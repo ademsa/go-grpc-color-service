@@ -1,4 +1,4 @@
-module go-grpc-color-service
+module github.com/ademsa/go-grpc-color-service
 
 go 1.15
 

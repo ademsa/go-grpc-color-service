@@ -2,8 +2,8 @@ package main
 
 import (
 	"flag"
-	"go-grpc-color-service/pkg/server"
-	"go-grpc-color-service/pkg/service"
+	"github.com/ademsa/go-grpc-color-service/pkg/server"
+	"github.com/ademsa/go-grpc-color-service/pkg/service"
 	"google.golang.org/grpc"
 	"log"
 	"net"

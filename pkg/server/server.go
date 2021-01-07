@@ -2,7 +2,7 @@ package server
 
 import (
 	"context"
-	"go-grpc-color-service/pkg/service"
+	"github.com/ademsa/go-grpc-color-service/pkg/service"
 	"log"
 )
 

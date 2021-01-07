@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/ademsa/go-grpc-color-service/service";
+option go_package = "github.com/ademsa/go-grpc-color-service/pkg/service";
 
 package service;
 
